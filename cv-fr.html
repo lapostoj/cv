@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Jerome Lapostolet - CV
+    </title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-size: 0.9rem;
+            line-height: 1.3rem;
+            margin: 0;
+            padding-top: 10mm;
+            padding-bottom: 10mm;
+            padding-left: 10mm;
+            padding-right: 10mm;
+        }
+
+        strong {
+            font-weight: 700;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+
+        a {
+            color: #1e89ed;
+        }
+
+        .full-width {
+            width: 100%;
+        }
+
+        .info {
+            width: 50%;
+        }
+
+        .name {
+            font-size: 1.5rem;
+            margin-bottom: 1mm;
+        }
+
+        .links {
+            width: 50%;
+            border-left: 2px solid #4599e8;
+            padding-left: 5mm;
+        }
+
+        .title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #4599e8;
+            margin-bottom: 0em;
+            padding-bottom: 2mm;
+            border-bottom: 1px dotted #4599e8;
+        }
+
+        .date {
+            font-size: smaller;
+            text-transform: uppercase;
+            color: #4599e8;
+        }
+
+        .company, .university {
+            font-weight: 700;
+        }
+
+        .position, .degree {
+            font-style: italic;
+        }
+
+        .description {
+            text-indent: 10mm;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .small-caps {
+            font-size: smaller;
+            text-transform: uppercase;
+        }
+
+        .justify {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .main-courses-indent {
+            text-indent: 32mm;
+        }
+
+        .computer-science-indent {
+            text-indent: 60mm;
+        }
+
+        .associations-indent {
+            text-indent: 10mm;
+        }
+
+        .footer {
+            color: #4599e8;
+            padding-top: 3mm;
+        }
+
+        .last-update {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+<table class="header full-width">
+    <tr>
+        <td class="info">
+            <ul>
+                <li class="name">Jérôme Lapostolet</li>
+                <li class="address">Paris | France</li>
+                <li class="email"><a href="mailto:jerome.lapostolet@gmail.com" target="_blank">jerome.lapostolet@gmail.com</a></li>
+            </ul>
+        </td>
+        <td class="links">
+            <ul>
+                <li class="linkedin">LinkedIn : <a href="https://www.linkedin.com/in/jeromelapostolet/" target="_blank">https://www.linkedin.com/in/jeromelapostolet</a></li>
+                <li class="github">Github : <a href="https://github.com/lapostoj" target="_blank">https://github.com/lapostoj</a></li>
+                <li class="website">Site Personnel : <a href="https://www.lapostoj.fr" target="_blank">https://www.lapostoj.fr</a></li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<table class="work-experience full-width">
+    <tr>
+        <td>
+            <p class="title">Expérience Professionnelle</p>
+            <ul>
+                <li>
+                    <div class="date">Août 2019 - Actuel</div>
+                    <div><span class="company">Marshmallow</span> | Londres (Royaume-Uni) - <span class="position">Technical Lead.</span></div>
+                    <div class="description">
+                        En tant que "technical lead" pour notre équipe de développement concentrée sur l'acquisition de nouveaux utilisateurs, 
+                        j'ai eu un rôle important dans la grande phase de croissance traversée par l'entreprise.
+                        Un aspect clé du rôle est de superviser les choix techniques fait au sein de l'équipe et d'aider des ingénieurs moins expérimentés
+                        à progresser et devenir de plus en plus indépendants. Cela, tout en prenant part en tant que contributeur à part entière dans les projets réalisés par l'équipe.
+                        J'ai aussi pris part dans le recrutement ainsi que l'amélioration de nos processus de recrutements pour les ingénieurs.
+                    </div>
+                </li>
+                <li>
+                    <div class="date">Novembre 2018 - Août 2019</div>
+                    <div><span class="company">Marshmallow</span> | Londres (Royaume-Uni) - <span class="position">Ingénieur logiciel full-stack.</span></div>
+                    <div class="description">
+                        J'ai rejoint Marshmallow dans l'équipe de développement concentrée sur l'acquisition de nouveaux utilisateurs peu de temps après le lancement du site.
+                        J'ai ainsi joué un rôle important dans l'amélioration du produit ainsi que l'évolution des processus, de l'architecture et des outils utilisés afin
+                        d'obtenir de meilleurs systèmes, plus résilients et d'améliorer l'expérience et la productivité des développeurs.
+                        Nous avons principalement utilisé Java avec le framework Spring Boot/Spring Cloud pour le côté serveur. 
+                        Les services étant dans des containeurs Docker héberger sur une infrastructure AWS que nous gérions avec Terraform.
+                        Du côté client web, j'ai contribué occasionnellement au site qui est une application React avec des éléments en Typescript.
+                    </div>
+                </li>
+                <li>
+                    <div class="date">Juillet 2016 - Novembre 2018</div>
+                    <div><span class="company">TransferWise</span> | Tallinn (Estonie) et Londres (Royaume-Uni) - <span class="position">Ingénieur logiciel full-stack.</span></div>
+                    <div class="description">
+                        J'ai rejoint TransferWise en stage de fin d'études dans leur équipe en charge du développement d'un compte multidevises et qui a été lancé en mai 2017.
+                        Je suis ensuite resté dans l'équipe à temps plein à la fin du stage.
+                        Durant cette période, j'ai été impliqué dans des aspects à la fois serveur et client du projet, dans plusieurs parties critiques du système qui était en Java avec le framework Spring Boot/Cloud.
+                        Pour le client web, nous avons développé une application AngularJS avec des éléments en React puisque l'entreprise entamait une migration vers cette technologie.
+                        J'ai aussi été impliqué dans des aspects opérationnels ainsi qu'en rotation d'astreinte aussi bien que dans les discussions pour prioritiser nos différentes options.
+                    </div>
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<table class="education full-width">
+    <tr>
+        <td>
+            <p class="title">Formation</p>
+            <ul>
+                <li>
+                    <div class="date">2013 - 2017</div>
+                    <div>
+                        <span class="university">Grenoble INP – Ensimag</span> | Grenoble (France) - 
+                        <span class="degree">Diplôme Ingénieur Ensimag</span>
+                    </div>
+                    <div>
+                        <span class="small-caps">Cours principaux – Ingénierie Logicielle:</span> 
+                        Programmation orientée objets | Algorithmique | Fouille de données et analyse statistique multidimensionnelle | 
+                        Analyse, conception et validation de logiciels | Programmation concurrente | Gestion de base de données |
+                        Recherche opérationnelle | Théorie des languages.
+                    </div>
+                    <div class="main-courses-indent">
+                        <span class="small-caps">– Finance:</span>
+                        Théorie financière | Marchés financiers | Introduction aux produits dérivés | Investissement, financement et évaluation d'entreprises.
+                    </div>
+                </li>
+                <li>
+                    <div class="date">Janvier 2016 – Mai 2016</div>
+                    <div>
+                        <span class="company">National University of Singapore (NUS)</span> | Singapour (Singapour) - 
+                        <span class="position">Semestre d'échange à l'étranger.</span>
+                    </div>
+                    <span class="small-caps">Cours:</span> Programmation concurrente et parallèle | Sécurité informatique | 
+                    Théorie et calcul d'outils d'investissements | Economie du commerce électronique.
+                </li>
+                <li>
+                    <div class="date">2011 – 2013</div>
+                    <div>
+                        <span class="company">Lycée du Parc</span> | Lyon (France) - 
+                        <span class="position">Classe préparatoire aux grandes écoles MPSI/MP (mathématiques, physique).</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="date">2008 – 2011</div>
+                    <div>
+                        <span class="company">Lycée Claude Bernard</span> | Villefranche-sur-Saône (France) - 
+                        <span class="position">Baccalauréat scientifique avec la mention très bien.</span>
+                    </div>
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<table class="skills full-width">
+    <tr>
+        <td>
+            <p class="title">Compétences</p>
+            <ul>
+                <li>
+                    <div>
+                        <strong>Compétences informatique :</strong>
+                        <span class="small-caps">Programmation:</span> Java (Spring), JavaScript (React), Golang, SQL (MySQL, PostgreSQL), HTML/CSS.
+                    </div>
+                    <div class="computer-science-indent">
+                        <span class="small-caps">Ingénierie Logicielle:</span> Domain Driven Design, Test Driven Development.
+                    </div>
+                    <div class="computer-science-indent">
+                        <span class="small-caps">Outils:</span> Git, IntelliJ, Visual Studio Code, CI (Jenkins, CircleCI).
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong>Langues :</strong>
+                        <span class="small-caps">Anglais</span> (Courant) | 
+                        <span class="small-caps">Espagnol</span> (Bonnes connaissances)
+                    </div>
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<table class="projects full-width">
+    <tr>
+        <td>
+            <p class="title">Projets</p>
+            <ul>
+                <li>
+                    <div>
+                        <strong class="small-caps">Site personnel</strong>
+                    </div>
+                    <div class="description">
+                        J'utilise ce site pour expérimenter occasionnellement avec de nouvelles technologies ou framework.
+                        Il peut également servir comme CV en ligne ou comme blog à l'occasion.
+                        Il est actuellement développé avec <a href="https://gatsbyjs.org/" target="_blank">GatsbyJS</a> (React, GraphQL) 
+                        et hébergé sur <a href="https://firebase.google.com" target="_blank">Firebase</a> dans le cloud Google.
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <strong class="small-caps">Inventaire de cave</strong>
+                    </div>
+                    <div class="description">
+                        Un projet personnel développé en <a href="https://golang.org/" target="_blank">Go</a> 
+                        et hébergé sur le cloud Google avec <a href="https://cloud.google.com/appengine/docs/go/" target="_blank">Google App Engine</a> pour la partie serveur.
+                        Le client web étant une application <a href="https://reactjs.org/" target="_blank">React</a>.
+                        Il permet à l'utilisateur de gérer son stock de bouteilles de vin.
+                        Le projet n'a jamais été totalement fini du fait d'un investissement de temps variable, mais il m'a permis d'en apprendre plus su le language Go et la bibliothèque React.
+                    </div>
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<table class="footer full-width">
+    <tr>
+        <td class="last-update">
+            <ul>
+                <li>Mis à jour en Mai 2021.</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
