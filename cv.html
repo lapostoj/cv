@@ -96,8 +96,8 @@
             text-indent: 25mm;
         }
 
-        .computer-science-indent {
-            text-indent: 31mm;
+        .computer-skills-indent {
+            text-indent: 35mm;
         }
 
         .associations-indent {
@@ -112,6 +112,10 @@
         .last-update {
             text-align: right;
         }
+
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -121,7 +125,7 @@
         <td class="info">
             <ul>
                 <li class="name">Jerome Lapostolet</li>
-                <li class="address">London | United Kingdom</li>
+                <li class="address">Paris | France</li>
                 <li class="email"><a href="mailto:jerome.lapostolet@gmail.com" target="_blank">jerome.lapostolet@gmail.com</a></li>
             </ul>
         </td>
@@ -142,11 +146,15 @@
             <ul>
                 <li>
                     <div class="date">August 2019 - Now</div>
-                    <div><span class="company">Marshmallow</span> | London (United Kingdom) - <span class="position">Technical Lead.</span></div>
+                    <div><span class="company">Marshmallow</span> | London (United Kingdom) and remotely from Paris (France) - <span class="position">Technical Lead.</span></div>
                     <div class="description">
-                        As a technical lead for our team focused on growth and customer acquisition I am focused on scalable growth of the team and our systems while the company was going through a massive increase volumes.
-                        A key aspect of the role is overlooking technical decisions in the multiple services handled by the team while still taking part to the team's work as an individual contributor.
-                        I am also involved heavily in hiring as well as in the improvement and update of our hiring process.
+                        In Marshmallow a key aspect of the technical lead role is overlooking technical decisions in the multiple services handled by the team while still taking part to the team's work as an individual contributor.
+                        Over time I have held the role in different teams. <br>
+                        - I helped the team focused on growth and customer acquisition to go through its first scaling as the company was going through a massive increase of volumes as the business developed. <br>
+                        - I was in charge of a time critical project to build systems allowing Marshmallow to sell insurance from its own insurance company and not be only a broker, which we were able to deliver in early 2021. <br>
+                        - After that, I took the lead of the claims teams in charge of supporting the claiming aspect of the product as it went from one external partner to another and then with an in-house team.
+                        This implied integrating with different partners as well as building internal tools for our teams to increase productivity and quality of service. <br>
+                        - Lately I also started to support a second team in charge of delivering a telematics insurance product based on our mobile app.
                     </div>
                 </li>
                 <li>
@@ -179,7 +187,7 @@
                         It also implied building a REST server in Java with the Spring framework.
                     </div>
                 </li>
-                <li>
+                <li class="hidden">
                     <div class="date">February 2015 – May 2015 (10 weeks, part time)</div>
                     <div><span class="company">Nsigma Junior-Entreprise</span> | Grenoble (France) - <span class="position">Android Developer.</span></div>
                     <div class="description">
@@ -187,7 +195,7 @@
                         During short “sprints”, I delivered several features to improve the UX and helped make the architecture more efficient and scalable.
                     </div>
                 </li>
-                <li>
+                <li class="hidden">
                     <div class="date">August 2014 (4 weeks)</div>
                     <div><span class="company">IBM (Client Center)</span> | Montpellier (France) - <span class="position">Manual Workforce Experience.</span></div>
                     <div class="description">
@@ -195,7 +203,7 @@
                         This gave me the opportunity to learn more about data-centers and to be close to the technology used by IBM in this area.
                     </div>
                 </li>
-                <li>
+                <li class="hidden">
                     <div class="date">April 2014 (3 days)</div>
                     <div><span class="company">Morgan Stanley</span> | London (United Kingdom) - <span class="position">Tech & Data Spring Insight Program.</span></div>
                     <div class="description">
@@ -203,7 +211,7 @@
                         I also participated in group problem solving and reflections based on real problems the bank had faced.
                     </div>
                 </li>
-                <li>
+                <li class="hidden">
                     <div class="date">2011, 2012 (2 x 4 weeks)</div>
                     <div><span class="company">Crédit Agricole Centre-Est</span> | France - <span class="position">Receptionist.</span></div>
                     <div class="description">
@@ -277,12 +285,12 @@
                 <li>
                     <div>
                         <strong>Computer skills:</strong>
-                        <span class="small-caps">Programming:</span> Java (Spring), JavaScript (React), Golang, SQL (MySQL, PostgreSQL), HTML/CSS.
+                        <span class="small-caps">Programming:</span> Java (Spring), JavaScript (React), SQL (MySQL, PostgreSQL), HTML/CSS, Golang, Python, Kotlin.
                     </div>
-                    <div class="computer-science-indent">
+                    <div class="computer-skills-indent">
                         <span class="small-caps">Software Engineering:</span> Domain Driven Design, Test Driven Development.
                     </div>
-                    <div class="computer-science-indent">
+                    <div class="computer-skills-indent">
                         <span class="small-caps">Tools:</span> Git, IntelliJ, Visual Studio Code, CI (Jenkins, CircleCI).
                     </div>
                 </li>
@@ -290,7 +298,7 @@
                     <div>
                         <strong>Languages:</strong>
                         <span class="small-caps">French</span> (Native) | 
-                        <span class="small-caps">English</span> (Full professional proficiency, TOEFL iBT: 108/120) | 
+                        <span class="small-caps">English</span> (Full professional proficiency) |
                         <span class="small-caps">Spanish</span> (Intermediate)
                     </div>
                 </li>
@@ -305,7 +313,7 @@
     </tr>
 </table>
 
-<table class="projects full-width">
+<table class="hidden projects full-width">
     <tr>
         <td>
             <p class="title">Projects</p>
@@ -346,7 +354,7 @@
     </tr>
 </table>
 
-<table class="interests full-width">
+<table class="hidden interests full-width">
     <tr>
         <td>
             <p class="title">Interests & Activities</p>
@@ -365,10 +373,6 @@
                         <span class="position">President of the Students’ Office for students in Mathematics and Physics in Lycée du Parc.</span>
                     </div>
                 </li>
-                <li>
-                    <div><strong class="small-caps">Sports</strong></div>
-                    <div>Karate, yoga, running, skiing, swimming.</div>
-                </li>
             </ul>
         </td>
     </tr>
@@ -383,7 +387,7 @@
         </td>
         <td class="last-update">
             <ul>
-                <li>Last updated in November 2020.</li>
+                <li>Last updated in August 2022.</li>
             </ul>
         </td>
     </tr>
